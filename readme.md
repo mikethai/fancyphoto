@@ -182,3 +182,9 @@ array(
 
 </body>
 ````
+
+### Step 8 建立資料夾
+````
+mkdir fancyphoto
+mkdir fancyphoto/photos
+````
