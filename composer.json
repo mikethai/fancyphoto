@@ -1,0 +1,25 @@
+{
+    "name": "mikecai/fancyphoto",
+    "description": "Is the tiny photo uploader for backend site.Using fancy-box to development it.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "mikecai",
+            "email": "mike49112@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1",
+        "nette/database": "^v3.0.6",
+        "nette/caching": "^3.0",
+        "nette/forms": "^3.0",
+        "nette/utils": "^3.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "mikecai\\fancyphoto\\": "./src/"
+        },
+        "files": ["src/functions_include.php"]
+    }
+}
